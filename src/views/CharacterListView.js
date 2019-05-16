@@ -1,8 +1,9 @@
 import React from "react";
 import { connect } from "react-redux";
-
+import Loader from 'react-loader-spinner';
 import { CharacterList } from "../components";
 // import actions
+import { getCharacter } from '../actions';
 
 class CharacterListView extends React.Component {
   constructor() {
